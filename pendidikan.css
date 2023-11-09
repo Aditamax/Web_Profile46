@@ -1,0 +1,44 @@
+/* Reset CSS untuk menghapus margin dan padding default dari browser */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hobby-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hobby-list li {
+    margin: 20px;
+    text-align: center;
+}
+
+.hobby-list img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.hobby-list p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Hover effect on hobby items */
+.hobby-list li:hover {
+    transform: scale(1.1);
+}
